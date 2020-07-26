@@ -12,7 +12,7 @@ return kittens.pop();
 function destructivelyRemoveFirstKitten(){
 return kittens.shift();
 }
-function append(name){
+function appendKitten(name){
   return kittens.slice()
 }
 function prependKitten(){
