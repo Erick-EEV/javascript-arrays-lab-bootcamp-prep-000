@@ -22,6 +22,6 @@ function removeLastKitten(){
   return  kittens.slice(0, kittens.length - 4);
 }
 function removeFirstKitten(){
-  return array.slice(-2)
+  return kittens.slice(-2)
 }
 // Add your functions and code here
